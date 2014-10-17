@@ -2,9 +2,10 @@ source 'https://ruby.taobao.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.4'
+gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'mysql2', '~> 0.3.16'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -29,3 +30,4 @@ gem 'spring',        group: :development
 gem 'rest-client', '~> 1.7.2'
 gem 'grape', '~> 0.8.0'
 gem 'puma', '~> 2.9.0'
+gem 'nokogiri'

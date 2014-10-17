@@ -15,8 +15,9 @@ module WxApi
     # helpers HelpersError
     #use Rack::Session::Cookie
     #prefix ''
-    format :json
-    content_type :json, 'application/json'
+    # format :xml
+    # content_type :json, 'application/json'
+    # content_type :xml, "text/xml"
 
     before do
       #header['Access-Control-Allow-Origin'] = '*'
