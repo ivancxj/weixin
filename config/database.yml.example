@@ -11,13 +11,13 @@ default: &DEFAULT
   verify_connection: true
 development:
   <<: *DEFAULT
-  database: panda_dev
+  database: weixin_dev
 
 production:
   <<: *DEFAULT
-  database: panda
+  database: weixin
 
 test:
   <<: *DEFAULT
-  database: panda_test
+  database: weixin_test
 
